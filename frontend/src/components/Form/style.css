@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 12rem;
+}
+
+button {
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 8rem;
+}

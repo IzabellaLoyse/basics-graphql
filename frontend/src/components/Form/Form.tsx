@@ -1,6 +1,7 @@
 import { gql, useMutation } from '@apollo/client';
 import { FormEvent, useState } from 'react';
 import { GET_USER } from '../../App';
+import './style.css';
 
 const CREATE_USER = gql`
   mutation ($name: String!) {

@@ -18,8 +18,11 @@ export const GET_USER = gql`
 
 function App() {
   const { data, loading } = useQuery<{ users: User[] }>(GET_USER);
+
   return (
     <div className="App">
+      <h1>GraphQl + React</h1>
+
       {loading && <p>Carregando...</p>}
       <div>
         <Form />
